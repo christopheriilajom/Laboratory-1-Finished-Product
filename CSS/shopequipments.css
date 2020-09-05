@@ -53,6 +53,14 @@ a:hover{
     text-align: center;
 
 }
+#formtable input, textarea{
+    border-radius: 20px;
+    outline: none;
+}
+#formtable input:focus, textarea:focus{
+    width: 150px;
+    border: 3px solid #204051;
+}
 #equipmentstable tr td{
     border: 3px solid #204051;
     text-align: center;
@@ -68,6 +76,13 @@ a:hover{
 #equipmentstable tr td img:hover{
     text-decoration: underline;
     box-shadow: 1px 1px 5px #999;
+    position: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: scale(1.25);
 }
 
 #submitbutton{
@@ -78,3 +93,5 @@ a:hover{
     box-shadow: 1px 1px 5px #999;
     text-decoration: underline;
 }
+
+
